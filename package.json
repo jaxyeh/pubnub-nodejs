@@ -1,0 +1,47 @@
+{
+  "name": "pubnub",
+  "preferGlobal": false,
+  "version": "3.7.9",
+  "author": "PubNub <stephen@pubnub.com>",
+  "description": "Publish & Subscribe Real-time Messaging with PubNub",
+  "contributors": [
+    {
+      "name": "Stephen Blum",
+      "email": "stephen@pubnub.com"
+    }
+  ],
+  "bin": {},
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests/tests.js"
+  },
+  "main": "./pubnub.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pubnub/javascript.git"
+  },
+  "keywords": [
+    "cloud",
+    "publish",
+    "subscribe",
+    "websockets",
+    "comet",
+    "bosh",
+    "xmpp",
+    "real-time",
+    "messaging"
+  ],
+  "dependencies": {
+    "agentkeepalive": "~0.2"
+  },
+  "noAnalyze": false,
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "nodeunit": "^0.9.0",
+    "underscore": "^1.7.0"
+  },
+  "bundleDependencies": [],
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.2"
+  }
+}
